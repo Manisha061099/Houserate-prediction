@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 np.random.seed(42) 
 square_footage = np.random.randint(500, 3500, 100)  
-prices = square_footage * 300 + np.random.normal(0, 20000, 100) 
+prices = square_footage * 300 + np.random.normal(0, 20000, 100)
 
 data = pd.DataFrame({
     'SquareFootage': square_footage,
